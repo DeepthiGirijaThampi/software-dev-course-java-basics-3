@@ -15,12 +15,13 @@ public class ConditionalExercises {
         // Replace the line below with code that returns "child" if age is less than 13,
         // "teen" if age is less than 20, and "adult" otherwise
         // (use if, else if, and else)
-        if(age<13){
+        if (age < 13){
             return "child";
-        }else if(age >12 && age <= 19){
+        } else if (age < 20){
             return "teen";
-        }else
+        } else {
             return "adult";
+        }
 
     }
 
